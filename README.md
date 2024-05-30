@@ -1,24 +1,15 @@
-
 # Earthquake Prediction using Machine Learning
 
 This project aims to predict earthquake magnitudes and occurrences using machine learning models.
 
 ## Project Structure
 
-```
+```ini {"id":"01HZ4MWPV1WXE217FHBXMVKS0E"}
 earthquake-prediction-ml/
 ├── data/
 │   └── earthquake_data.csv
 ├── src/
-│   ├── __init__.py
 │   └── main.py
-├── notebooks/
-│   └── exploration.ipynb
-├── models/
-│   └── trained_model.pkl
-├── tests/
-│   └── test_main.py
-├── .gitignore
 ├── README.md
 ├── LICENSE
 └── requirements.txt
@@ -27,33 +18,38 @@ earthquake-prediction-ml/
 ## Installation
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/oaslananka/earthquake-prediction-ml.git
-   cd earthquake-prediction-ml
-   ```
+
+```sh {"id":"01HZ4MWPV22SCECAA8RZ3TFA9H"}
+git clone https://github.com/oaslananka/earthquake-prediction-ml.git
+cd earthquake-prediction-ml
+```
 
 2. Create and activate a virtual environment:
-   ```sh
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scriptsctivate`
-   ```
+
+```sh {"id":"01HZ4MWPV22SCECAA8S2APFYT9"}
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scriptsctivate`
+```
 
 3. Install the dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
+
+```sh {"id":"01HZ4MWPV22SCECAA8S2CKJ758"}
+pip install -r requirements.txt
+```
 
 ## Usage
 
 1. Run the main script:
-   ```sh
-   python src/main.py
-   ```
+
+```sh {"id":"01HZ4MWPV22SCECAA8S41S7ZCC"}
+python src/main.py
+```
 
 2. Explore the data using Jupyter notebooks:
-   ```sh
-   jupyter notebook notebooks/exploration.ipynb
-   ```
+
+```sh {"id":"01HZ4MWPV22SCECAA8S76FHAPA"}
+jupyter notebook notebooks/exploration.ipynb
+```
 
 ## Data Source
 
@@ -62,6 +58,7 @@ The earthquake data is fetched from the USGS (United States Geological Survey) A
 ## Algorithms and Methods
 
 This project uses several machine learning algorithms for earthquake prediction, including:
+
 - Random Forest Regressor
 - Gradient Boosting Regressor
 - XGBoost Regressor
