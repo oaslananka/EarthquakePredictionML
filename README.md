@@ -20,18 +20,11 @@ earthquake-prediction-ml/
 1. Clone the repository:
 
 ```sh {"id":"01HZ4MWPV22SCECAA8RZ3TFA9H"}
-git clone https://github.com/oaslananka/earthquake-prediction-ml.git
-cd earthquake-prediction-ml
+git clone https://github.com/oaslananka/EarthquakePredictionML.git
+cd EarthquakePredictionML
 ```
 
-2. Create and activate a virtual environment:
-
-```sh {"id":"01HZ4MWPV22SCECAA8S2APFYT9"}
-python3 -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scriptsctivate`
-```
-
-3. Install the dependencies:
+2. Install the dependencies:
 
 ```sh {"id":"01HZ4MWPV22SCECAA8S2CKJ758"}
 pip install -r requirements.txt
@@ -43,12 +36,6 @@ pip install -r requirements.txt
 
 ```sh {"id":"01HZ4MWPV22SCECAA8S41S7ZCC"}
 python src/main.py
-```
-
-2. Explore the data using Jupyter notebooks:
-
-```sh {"id":"01HZ4MWPV22SCECAA8S76FHAPA"}
-jupyter notebook notebooks/exploration.ipynb
 ```
 
 ## Data Source
